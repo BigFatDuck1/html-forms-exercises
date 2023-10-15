@@ -55,6 +55,12 @@
     display: flex;
   }
 
+  /* Change font */
   label {
-    font: 0.8em "typewriter"
+    font: 0.8em "typewriter", sans-serif;
+  }
+
+  /* Remove borders */
+  input, textarea {
+    border: none;
   }
